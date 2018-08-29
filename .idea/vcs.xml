@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Carthage/Checkouts/Facebook-SDK-Swift/Carthage/Checkouts/facebook-ios-sdk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Carthage/Checkouts/ReactiveSwift/Carthage/Checkouts/Quick" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Carthage/Checkouts/ReactiveSwift/Carthage/Checkouts/Quick/Externals/Nimble" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Carthage/Checkouts/facebook-ios-sdk/vendor/appledoc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Carthage/Checkouts/realm-cocoa/Realm/ObjectStore" vcs="Git" />
+  </component>
+</project>

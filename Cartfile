@@ -1,0 +1,16 @@
+github "realm/realm-cocoa"
+github "kawoou/Deli"
+github "bizz84/SwiftyStoreKit"
+
+github "lkzhao/Hero"
+github "SnapKit/SnapKit"
+github "Instagram/IGListKit"
+
+github "ReactiveX/RxSwift"
+github "RxSwiftCommunity/RxDataSources"
+
+github "Alamofire/Alamofire"
+github "Moya/Moya"
+github "onevcat/Kingfisher"
+
+github "facebook/Facebook-SDK-Swift"

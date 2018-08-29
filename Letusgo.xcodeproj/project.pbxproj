@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A40C160F5CFDE1A650182FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A40C8451FFE5226B8A393D1 /* ViewController.swift */; };
+		5A40C6C03C2751994699126C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A40C81445B269CABFE7A63C /* Assets.xcassets */; };
+		5A40C7C0C9CAB03FE3C66852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A40C0984A52EEB928FFE360 /* Main.storyboard */; };
+		5A40CA00A2B7615E949D625A /* LetusgoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A40C4AC8B63F8E20DA7317E /* LetusgoUITests.swift */; };
+		5A40CAF2BAD7D6EB00B75C54 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 5A40CF1F53E70318AED2DEC9 /* Cartfile */; };
+		5A40CCDF82B50BC67B2ED3BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A40C099950F5DB7AFBBFD16 /* AppDelegate.swift */; };
+		5A40CCFB262D0C33FC74E979 /* LetusgoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A40C5195CBA492C237FD6DD /* LetusgoTests.swift */; };
+		5A40CE9B4E787691C3A1B20E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A40C74E57D93108E8934D01 /* LaunchScreen.storyboard */; };
+		81807E82D6F7C7712BEDB50D /* Pods_Letusgo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CCB3C4F3A8E70054EBC7D1 /* Pods_Letusgo.framework */; };
+		84D95A1D267C65562C68FDEA /* Pods_LetusgoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B541565649D824930ECB412 /* Pods_LetusgoUITests.framework */; };
+		995060DCCDB7757F103E2629 /* Pods_LetusgoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE9D45A3C43EAEAEB62121F /* Pods_LetusgoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A40CBAD2D8776BCB3D750B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A40CB4B7C8DC9B57B3D7668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A40CAF984966D713E83F9B9;
+			remoteInfo = Letusgo;
+		};
+		5A40CE883A61751B0583B807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A40CB4B7C8DC9B57B3D7668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A40CAF984966D713E83F9B9;
+			remoteInfo = Letusgo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17CCB3C4F3A8E70054EBC7D1 /* Pods_Letusgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Letusgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A55E0DAE604DED701D3458 /* Pods-LetusgoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetusgoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LetusgoTests/Pods-LetusgoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A40C099950F5DB7AFBBFD16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A40C4AC8B63F8E20DA7317E /* LetusgoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetusgoUITests.swift; sourceTree = "<group>"; };
+		5A40C5195CBA492C237FD6DD /* LetusgoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetusgoTests.swift; sourceTree = "<group>"; };
+		5A40C5604737008804F08692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		5A40C77B00B89D67A60D447E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A40C77B73203A3C3F823440 /* LetusgoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetusgoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A40C7DE44429855C7ADB599 /* LetusgoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetusgoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A40C81445B269CABFE7A63C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A40C8451FFE5226B8A393D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A40C86D7EEBD667AC12E701 /* Letusgo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Letusgo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A40CA7102D60CCCE270D20E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		5A40CBF65E433DF0E0037D52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A40CD7406A085E4FF091A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		5A40CF1F53E70318AED2DEC9 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		746FDD89246A0CD0DD518B5D /* Pods-LetusgoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetusgoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LetusgoUITests/Pods-LetusgoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		82AD03A3FBC3B27D4D322653 /* Pods-LetusgoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetusgoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LetusgoUITests/Pods-LetusgoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B541565649D824930ECB412 /* Pods_LetusgoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetusgoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEDD5B92DC2BECEBFB99A466 /* Pods-LetusgoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetusgoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LetusgoTests/Pods-LetusgoTests.release.xcconfig"; sourceTree = "<group>"; };
+		AFE9D45A3C43EAEAEB62121F /* Pods_LetusgoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetusgoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7101524F2442B81F1D98892 /* Pods-Letusgo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Letusgo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Letusgo/Pods-Letusgo.debug.xcconfig"; sourceTree = "<group>"; };
+		F7C7DC091E92A9395ADADFB6 /* Pods-Letusgo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Letusgo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Letusgo/Pods-Letusgo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A40C75CDFC5C4FBA028818E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				995060DCCDB7757F103E2629 /* Pods_LetusgoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A40C7D6D5E1C5BF4D3733E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81807E82D6F7C7712BEDB50D /* Pods_Letusgo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A40CB9513941825E95D6460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D95A1D267C65562C68FDEA /* Pods_LetusgoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C5A544DCB0D8F7F5E22E648 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17CCB3C4F3A8E70054EBC7D1 /* Pods_Letusgo.framework */,
+				AFE9D45A3C43EAEAEB62121F /* Pods_LetusgoTests.framework */,
+				8B541565649D824930ECB412 /* Pods_LetusgoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47F7772DD71ECC0D803FD4A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7101524F2442B81F1D98892 /* Pods-Letusgo.debug.xcconfig */,
+				F7C7DC091E92A9395ADADFB6 /* Pods-Letusgo.release.xcconfig */,
+				27A55E0DAE604DED701D3458 /* Pods-LetusgoTests.debug.xcconfig */,
+				AEDD5B92DC2BECEBFB99A466 /* Pods-LetusgoTests.release.xcconfig */,
+				82AD03A3FBC3B27D4D322653 /* Pods-LetusgoUITests.debug.xcconfig */,
+				746FDD89246A0CD0DD518B5D /* Pods-LetusgoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A40C0E29D6F0E0EC2FE45BE = {
+			isa = PBXGroup;
+			children = (
+				5A40C2E797FD523333F115EB /* Products */,
+				5A40CD045E9653964908E3EB /* Letusgo */,
+				5A40C2F877DA3C3F816E36ED /* LetusgoTests */,
+				5A40C1F87647E4120B1E02B6 /* LetusgoUITests */,
+				5A40CF1F53E70318AED2DEC9 /* Cartfile */,
+				47F7772DD71ECC0D803FD4A2 /* Pods */,
+				0C5A544DCB0D8F7F5E22E648 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A40C1F87647E4120B1E02B6 /* LetusgoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A40CA7102D60CCCE270D20E /* Info.plist */,
+				5A40C4AC8B63F8E20DA7317E /* LetusgoUITests.swift */,
+			);
+			path = LetusgoUITests;
+			sourceTree = "<group>";
+		};
+		5A40C2E797FD523333F115EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A40C86D7EEBD667AC12E701 /* Letusgo.app */,
+				5A40C77B73203A3C3F823440 /* LetusgoTests.xctest */,
+				5A40C7DE44429855C7ADB599 /* LetusgoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A40C2F877DA3C3F816E36ED /* LetusgoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A40C5604737008804F08692 /* Info.plist */,
+				5A40C5195CBA492C237FD6DD /* LetusgoTests.swift */,
+			);
+			path = LetusgoTests;
+			sourceTree = "<group>";
+		};
+		5A40CD045E9653964908E3EB /* Letusgo */ = {
+			isa = PBXGroup;
+			children = (
+				5A40CD7406A085E4FF091A81 /* Info.plist */,
+				5A40C81445B269CABFE7A63C /* Assets.xcassets */,
+				5A40C74E57D93108E8934D01 /* LaunchScreen.storyboard */,
+				5A40C099950F5DB7AFBBFD16 /* AppDelegate.swift */,
+				5A40C0984A52EEB928FFE360 /* Main.storyboard */,
+				5A40C8451FFE5226B8A393D1 /* ViewController.swift */,
+			);
+			path = Letusgo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A40C9C6E0E69B06E6AE88D1 /* LetusgoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A40C213D7886B7390055F6B /* Build configuration list for PBXNativeTarget "LetusgoTests" */;
+			buildPhases = (
+				763D7BDA06BBD22E5CA5F210 /* [CP] Check Pods Manifest.lock */,
+				5A40C9C8E04F2737BD767983 /* Sources */,
+				5A40C75CDFC5C4FBA028818E /* Frameworks */,
+				5A40C979DA3B5C6C7579D1C2 /* Resources */,
+				E49CC667D1DE84DA380B737B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A40C91E9FA11D56E80B1E00 /* PBXTargetDependency */,
+			);
+			name = LetusgoTests;
+			productName = LetusgoTests;
+			productReference = 5A40C77B73203A3C3F823440 /* LetusgoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A40CA8CD79E37AF2B8A9CB5 /* LetusgoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A40C53842322B74DD0FC211 /* Build configuration list for PBXNativeTarget "LetusgoUITests" */;
+			buildPhases = (
+				974FC188FD2A90C294F4A728 /* [CP] Check Pods Manifest.lock */,
+				5A40C077F9E14FE1184B37B0 /* Sources */,
+				5A40CB9513941825E95D6460 /* Frameworks */,
+				5A40CA12812434966958EBC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A40CA53364705D0D59D1363 /* PBXTargetDependency */,
+			);
+			name = LetusgoUITests;
+			productName = LetusgoUITests;
+			productReference = 5A40C7DE44429855C7ADB599 /* LetusgoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5A40CAF984966D713E83F9B9 /* Letusgo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A40C8134A9068FFFB04CA02 /* Build configuration list for PBXNativeTarget "Letusgo" */;
+			buildPhases = (
+				AC1FFEAD514CC0529394DD97 /* [CP] Check Pods Manifest.lock */,
+				5A40C9D82183A094C1A1654E /* Sources */,
+				5A40C7D6D5E1C5BF4D3733E2 /* Frameworks */,
+				5A40C2779C182416B77B3E8A /* Resources */,
+				9ACB6C4D6F443753BF942393 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Letusgo;
+			productName = Letusgo;
+			productReference = 5A40C86D7EEBD667AC12E701 /* Letusgo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A40CB4B7C8DC9B57B3D7668 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "iOS Developers KR";
+			};
+			buildConfigurationList = 5A40CF962EF45BF3A4CDB5D2 /* Build configuration list for PBXProject "Letusgo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5A40C0E29D6F0E0EC2FE45BE;
+			productRefGroup = 5A40C2E797FD523333F115EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A40CAF984966D713E83F9B9 /* Letusgo */,
+				5A40C9C6E0E69B06E6AE88D1 /* LetusgoTests */,
+				5A40CA8CD79E37AF2B8A9CB5 /* LetusgoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A40C2779C182416B77B3E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A40C6C03C2751994699126C /* Assets.xcassets in Resources */,
+				5A40CE9B4E787691C3A1B20E /* LaunchScreen.storyboard in Resources */,
+				5A40C7C0C9CAB03FE3C66852 /* Main.storyboard in Resources */,
+				5A40CAF2BAD7D6EB00B75C54 /* Cartfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A40C979DA3B5C6C7579D1C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A40CA12812434966958EBC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		763D7BDA06BBD22E5CA5F210 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LetusgoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		974FC188FD2A90C294F4A728 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LetusgoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ACB6C4D6F443753BF942393 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Letusgo/Pods-Letusgo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxValidator/RxValidator.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxValidator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Letusgo/Pods-Letusgo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC1FFEAD514CC0529394DD97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Letusgo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E49CC667D1DE84DA380B737B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LetusgoTests/Pods-LetusgoTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LetusgoTests/Pods-LetusgoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A40C077F9E14FE1184B37B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A40CA00A2B7615E949D625A /* LetusgoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A40C9C8E04F2737BD767983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A40CCFB262D0C33FC74E979 /* LetusgoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A40C9D82183A094C1A1654E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A40CCDF82B50BC67B2ED3BE /* AppDelegate.swift in Sources */,
+				5A40C160F5CFDE1A650182FE /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A40C91E9FA11D56E80B1E00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A40CAF984966D713E83F9B9 /* Letusgo */;
+			targetProxy = 5A40CE883A61751B0583B807 /* PBXContainerItemProxy */;
+		};
+		5A40CA53364705D0D59D1363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A40CAF984966D713E83F9B9 /* Letusgo */;
+			targetProxy = 5A40CBAD2D8776BCB3D750B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A40C0984A52EEB928FFE360 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A40CBF65E433DF0E0037D52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A40C74E57D93108E8934D01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A40C77B00B89D67A60D447E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A40C114B4F2D1E09F09A500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82AD03A3FBC3B27D4D322653 /* Pods-LetusgoUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = LetusgoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperkr.LetusgoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Letusgo;
+			};
+			name = Debug;
+		};
+		5A40C378FD3724C2B8547E67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A55E0DAE604DED701D3458 /* Pods-LetusgoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Letusgo.app/Letusgo";
+				INFOPLIST_FILE = LetusgoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperkr.LetusgoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		5A40C394A78FCE631E3E8FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7101524F2442B81F1D98892 /* Pods-Letusgo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Letusgo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperkr.Letusgo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A40C54D8A8D08CDB92C8C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 746FDD89246A0CD0DD518B5D /* Pods-LetusgoUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = LetusgoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperkr.LetusgoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Letusgo;
+			};
+			name = Release;
+		};
+		5A40C8048ECAA75F996BD05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A40CB6E8870DC5E884AC6B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEDD5B92DC2BECEBFB99A466 /* Pods-LetusgoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Letusgo.app/Letusgo";
+				INFOPLIST_FILE = LetusgoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperkr.LetusgoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		5A40CCFF72D8357E6D13AE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A40CF4097D42D7501419D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C7DC091E92A9395ADADFB6 /* Pods-Letusgo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Letusgo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperkr.Letusgo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A40C213D7886B7390055F6B /* Build configuration list for PBXNativeTarget "LetusgoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A40C378FD3724C2B8547E67 /* Debug */,
+				5A40CB6E8870DC5E884AC6B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A40C53842322B74DD0FC211 /* Build configuration list for PBXNativeTarget "LetusgoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A40C114B4F2D1E09F09A500 /* Debug */,
+				5A40C54D8A8D08CDB92C8C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A40C8134A9068FFFB04CA02 /* Build configuration list for PBXNativeTarget "Letusgo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A40C394A78FCE631E3E8FB5 /* Debug */,
+				5A40CF4097D42D7501419D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A40CF962EF45BF3A4CDB5D2 /* Build configuration list for PBXProject "Letusgo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A40CCFF72D8357E6D13AE49 /* Debug */,
+				5A40C8048ECAA75F996BD05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A40CB4B7C8DC9B57B3D7668 /* Project object */;
+}
